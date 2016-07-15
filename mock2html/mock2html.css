@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'proxima_nova_semibold';
+  src: url("fonts/proximanova-semibold-webfont.eot");
+  src: url("fonts/proximanova-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-semibold-webfont.woff") format("woff"), url("fonts/proximanova-semibold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'proxima_nova_light';
+  src: url("fonts/proximanova-light-webfont.eot");
+  src: url("fonts/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-light-webfont.woff") format("woff"), url("fonts/proximanova-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'proxima_nova_bold';
+  src: url("fonts/proximanova-light-webfont.eot");
+  src: url("fonts/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-light-webfont.woff") format("woff"), url("fonts/proximanova-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  font-family: "proxima_nova_light"; }
+
+
+
+.container-fluid {
+  margin:0 -30px;
+}
+.container1 {
+
+  width: 100%;
+  height: 33%;
+  margin-right: -5px;
+  margin-left: 20px;
+}
+.container1 h3{
+  font-style: bold;
+  font-weight: 600;
+  color: #323335;
+  margin-top: 40px;
+}
+.container1 h2{
+  font-style: bold;
+  font-weight: 600;
+  color: #727375;
+}
+.container2 {
+  width: 100%;
+  height: 33%;
+  padding: 15px 20px;
+}
+
+.content1 {
+  padding: 15px 20px;
+  background-color: #e7e8e9;
+  margin-right: -30px;
+}
+.content1 h4 {
+  color: #b3b4b6;
+}
+.content2 {
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  border: 5px solid #727375;
+  border-radius: 7px;
+}
+.button {
+  text-align: center;
+  color: white;
+  background-color: #ffa803;
+  text-align: center;
+  width: 120px;
+  margin-bottom: 10px;
+  background-image: url("http://www.whistle.com/images/whistle20/icon-cart-white-small.png");
+  background-position: 20px 46%;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  border-radius: 3px;
+}
+a.button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 50px;
+  padding-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  text-decoration: none;
+
+}
+.button-margin {
+  margin: 50px 0 30px;
+}
+.line-through {
+  text-decoration: line-through;
+  color: #b3b4b6;
+}
+
+@media screen and (max-width: 890px) {
+
+  .container1 h3{ font-size: 20px }
+  .content2 h1 { font-size: 35px }
+  .content2 h2 { font-size: 30px }
+  .content2 h3 { font-size: 25px }
+  .line-through h3 {font-size: 25px }
+  .content1 h2 { font-size: 26px; }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .container1 h3{ font-size: 15px }
+  .content2 { margin-top: 125px }
+  .content2 h1 { font-size: 30px }
+  .content2 h2 { font-size: 25px }
+  .content2 h3 { font-size: 20px }
+  .line-through h3 {font-size: 20px }
+  .content1 { margin-right: 40px }
+  .content1 h2 { font-size: 23px; }
+
+}
