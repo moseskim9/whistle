@@ -12,8 +12,8 @@
   font-style: normal; }
 @font-face {
   font-family: 'proxima_nova_bold';
-  src: url("fonts/proximanova-light-webfont.eot");
-  src: url("fonts/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-light-webfont.woff") format("woff"), url("fonts/proximanova-light-webfont.ttf") format("truetype");
+  src: url("fonts/proximanova-bold-webfont.eot");
+  src: url("fonts/proximanova-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-bold-webfont.woff") format("woff"), url("fonts/proximanova-bold-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 body {
@@ -32,13 +32,17 @@ body {
   margin-left: 20px;
 }
 .container1 h3{
-  font-style: bold;
+/*  font-style: bold;*/
+  font-family: 'proxima_nova_semibold';
   font-weight: 600;
   color: #323335;
   margin-top: 40px;
 }
 .container1 h2{
-  font-style: bold;
+  color: #727375;
+}
+.container1 h2:first-child{
+  font-family: 'proxima_nova_semibold';
   font-weight: 600;
   color: #727375;
 }
@@ -61,6 +65,10 @@ body {
   padding: 15px 20px;
   border: 5px solid #727375;
   border-radius: 7px;
+}
+.content2 h1 {
+  font-family: 'proxima_nova_semibold';
+  font-weight: 600;
 }
 .button {
   text-align: center;
